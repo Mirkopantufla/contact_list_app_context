@@ -1,0 +1,23 @@
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    to top,
+    rgba(109, 204, 0, 0.5),
+    rgba(5, 31, 0, 0.5)
+  );
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0b3200;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
